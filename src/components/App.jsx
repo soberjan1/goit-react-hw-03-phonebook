@@ -55,6 +55,7 @@ export default class App extends Component {
   };
 
   /////////////////////////////////
+
   componentDidMount() {
     const contacts = localStorage.getItem('contacts');
     const parsedContacts = JSON.parse(contacts);
@@ -87,5 +88,3 @@ export default class App extends Component {
     );
   }
 }
-
-// export default App;
